@@ -1,0 +1,6 @@
+FETAL_PLANES_ZENODO
+hc_dataset
+subplanes
+venv
+__pycache__
+*.pyc

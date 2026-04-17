@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetal Plane Classifier</title>
+    <style>
+        body { font-family: Arial; text-align: center; }
+        img { width: 300px; margin-top: 10px; }
+        .box { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h2>Upload Ultrasound Image</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if image %}
+        <div class="box">
+            <h3>Uploaded Image</h3>
+            <img src="{{ image }}">
+        </div>
+    {% endif %}
+
+    {% if result %}
+        <div class="box">
+            <h3>Results</h3>
+
+            <p><b>Plane:</b> {{ result.plane }}</p>
+            <p><b>Confidence:</b> {{ result.plane_confidence }}</p>
+
+            {% if result.subplane %}
+                <p><b>Sub-plane:</b> {{ result.subplane }}</p>
+                <p><b>Sub-plane Confidence:</b> {{ result.subplane_confidence }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+
+</body>
+</html>
