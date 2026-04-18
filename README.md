@@ -43,15 +43,13 @@ The system integrates **computer vision, deep learning, and clinical measurement
 
 ## 🧪 Datasets Used
 
-| Condition        | Dataset                          | Purpose                     |
-|-----------------|----------------------------------|-----------------------------|
-| IUGR            | ACOUSLIC-AI + Mendeley AC        | Abdominal Circumference     |
-| Microcephaly    | HC18 Grand Challenge             | Head Circumference          |
-| Hydrocephalus   | FetSAM (Zenodo)                  | Ventricular Width           |
-| Plane Detection | FETAL_PLANES_DB                  | Plane Classification        |
-| Fine-tuning     | GARBH-Ini Cohort (on request)    | Indian Population Calibration |
+| Condition        | Dataset | Description | Link |
+|-----------------|--------|-------------|------|
+| IUGR            | ACOUSLIC-AI + Mendeley AC | Abdominal circumference dataset for IUGR detection | [https://acouslic-ai.grand-challenge.org/](https://drive.google.com/drive/folders/1BecvGii1GK2J-Pl0zdqeU8MduqnANSNd?usp=sharing) |
+| Microcephaly    | HC18 Grand Challenge | Benchmark dataset for head circumference estimation |[ https://hc18.grand-challenge.org/](https://drive.google.com/drive/folders/1lQdIuptD1MquV9oEFVpNa6nLhawrlkrx?usp=drive_link) |
+| Hydrocephalus   | FetSAM (Zenodo) | Ventricular segmentation dataset for hydrocephalus detection | [https://zenodo.org/records/8265464](https://drive.google.com/drive/folders/1JZZGDyJTYBts6dxf3cPg3BWI3e5Q2xV6?usp=sharing) |
+| Plane Detection | FETAL_PLANES_DB | Dataset for fetal anatomical plane classification | [https://zenodo.org/records/3904280](https://drive.google.com/drive/folders/1ZpIXt9eIWRkOx5E8Ia3Lid-qYKSSK1cn?usp=sharing) |
 
----
 
 ## ⚙️ Tech Stack
 
