@@ -127,7 +127,7 @@ The system integrates **computer vision, deep learning, and clinical measurement
 
 For queries or collaboration:
 
-📧 *akshatbhatnagar797@gmaail.com*  
+📧 *akshatbhatnagar797@gmail.com*  
 
 ---
 
